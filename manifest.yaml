@@ -1,0 +1,40 @@
+version: 0.0.1
+type: plugin
+author: rainlzm
+name: phone_query
+label:
+  en_US: phone number query
+  ja_JP: phone number query
+  zh_Hans: 电话号码查询
+  pt_BR: phone number query
+description:
+  en_US: Phone or mobile number inquiry for ownership, operator, legality, etc
+  ja_JP: Phone or mobile number inquiry for ownership, operator, legality, etc
+  zh_Hans: 电话或手机号码查询归属、运营商、合法性等
+  pt_BR: Phone or mobile number inquiry for ownership, operator, legality, etc
+icon: phone.png
+resource:
+  memory: 268435456
+  permission:
+    tool:
+      enabled: true
+    endpoint:
+      enabled: true
+    app:
+      enabled: true
+plugins:
+  tools:
+    - provider/phone.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+  minimum_dify_version: 1.0.0
+created_at: 2025-05-10T22:15:56.563098+08:00
+privacy: PRIVACY.md
+verified: false

@@ -1,0 +1,30 @@
+identity:
+  name: phone_region
+  author: rainlzm
+  label:
+    en_US: query ownership and operator
+    zh_Hans: 查询归属地和运营商
+    pt_BR: query ownership and operator
+description:
+  human:
+    en_US: Phone or mobile number inquiry for ownership, operator, legality, etc
+    zh_Hans: 电话或手机号码查询归属、运营商、合法性等
+    pt_BR: Phone or mobile number inquiry for ownership, operator, legality, etc
+  llm: Phone or mobile number inquiry for ownership, operator, legality, etc
+parameters:
+  - name: number
+    type: string
+    required: true
+    label:
+      en_US: Phone or mobile number
+      zh_Hans: 电话或手机号码
+      pt_BR: Phone or mobile number
+    human_description:
+      en_US: please input phone or mobile number
+      zh_Hans: 请输入电话或手机号码
+      pt_BR: please input phone or mobile number
+    llm_description: please input phone or mobile number
+    form: llm
+extra:
+  python:
+    source: tools/region.py

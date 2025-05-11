@@ -1,0 +1,30 @@
+identity:
+  name: identify_phone
+  author: rainlzm
+  label:
+    en_US: identify phone from text
+    zh_Hans: 文本提取电话号码
+    pt_BR: identify phone from text
+description:
+  human:
+    en_US: identify phone from text
+    zh_Hans: 文本提取电话号码
+    pt_BR: identify phone from text
+  llm: identify phone from text
+parameters:
+  - name: number
+    type: string
+    required: true
+    label:
+      en_US: Phone or mobile number
+      zh_Hans: 电话或手机号码
+      pt_BR: Phone or mobile number
+    human_description:
+      en_US: please input phone or mobile number
+      zh_Hans: 请输入电话或手机号码
+      pt_BR: please input phone or mobile number
+    llm_description: please input phone or mobile number
+    form: llm
+extra:
+  python:
+    source: tools/identify.py
