@@ -8,10 +8,10 @@ label:
   zh_Hans: 电话号码查询
   pt_BR: phone number query
 description:
-  en_US: Phone or mobile number inquiry for ownership, operator, identify, etc
-  ja_JP: Phone or mobile number inquiry for ownership, operator, identify, etc
+  en_US: Phone or mobile number inquiry for location, operator, identify, etc
+  ja_JP: Phone or mobile number inquiry for location, operator, identify, etc
   zh_Hans: 电话或手机号码查询归属、运营商、文本提取等
-  pt_BR: Phone or mobile number inquiry for ownership, operator, identify, etc
+  pt_BR: Phone or mobile number inquiry for location, operator, identify, etc
 icon: phone.png
 resource:
   memory: 268435456
