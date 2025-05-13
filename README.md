@@ -12,7 +12,7 @@
 
 ### Usage
 
-- Query the location and operator [General correct]
+- Query the location and operator [General]
 
 ![img.png](_assets/img_suc.png)
 
