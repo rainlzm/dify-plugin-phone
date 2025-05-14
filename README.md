@@ -20,7 +20,7 @@
 
 ![img.png](_assets/img_err.png)
 
-- Fix Query Example:
+- Other Query Example:
 
 ![img.png](_assets/img_fix.png)
 
