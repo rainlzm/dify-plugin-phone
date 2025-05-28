@@ -5,6 +5,7 @@ from utils import PhoneNumberUtils
 cn_mobile_numbers = [
     "+861381234xxxx",  # 标准国际格式
     "1861234xxxx",  # 国内格式
+    "1736231xxxx",  # 国内格式
     "1536231xxxx",  # 国内格式
     "010-12345678",  # 北京固话
     "021 1234 5678",  # 上海固话
